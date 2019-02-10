@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/story32"
+    tools:context=".storyActivity3"
+    tools:layout_editor_absoluteY="81dp">
+
+
+
+    <TextView
+        android:id="@+id/story31"
+        android:layout_width="272dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="76dp"
+        android:text="Je suis Wooh, on m’a chargé de retrouver tout les objets qui pourront sauver notre monde !"
+        android:textColor="#1A5276"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        android:visibility="visible"
+        app:fontFamily="monospace"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/story32"
+        android:layout_width="243dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="65dp"
+        android:text="J’ai besoin de toi car je ne comprend pas les mots qu’ils faut chercher, ils sont dans une langue étrange..."
+        android:textColor="#1A5276"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        android:visibility="invisible"
+        app:fontFamily="monospace"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/story33"
+        android:layout_width="272dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="76dp"
+        android:text="Seul ton objet magique, le WordHunt, peut permettre de trouver ces objets."
+        android:textColor="#1A5276"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        android:visibility="invisible"
+        app:fontFamily="monospace"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/story34"
+        android:layout_width="243dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="65dp"
+        android:text="C’est un appareil photo très puissant qui permet de traduire les objets que l’on doit trouver."
+        android:textColor="#1A5276"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        android:visibility="invisible"
+        app:fontFamily="monospace"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/story35"
+        android:layout_width="243dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="65dp"
+        android:text="Aide nous à retrouver ces objets avec ton WordHunt pour sauver notre monde."
+        android:textColor="#1A5276"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        android:visibility="invisible"
+        app:fontFamily="monospace"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="410dp"
+        android:layout_height="657dp"
+        android:background="@android:color/transparent"
+        android:onClick="ensuite2"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/next"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="412dp"
+        android:layout_height="657dp"
+        android:background="@android:color/transparent"
+        android:onClick="ensuite1"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.603"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/next"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="412dp"
+        android:layout_height="657dp"
+        android:background="@android:color/transparent"
+        android:onClick="ensuite3"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.603"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/next"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="412dp"
+        android:layout_height="657dp"
+        android:background="@android:color/transparent"
+        android:onClick="ensuite4"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.603"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/next"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="412dp"
+        android:layout_height="657dp"
+        android:background="@android:color/transparent"
+        android:onClick="to_map"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.603"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/next"
+        app:layout_constraintVertical_bias="1.0" />
+</android.support.constraint.ConstraintLayout>

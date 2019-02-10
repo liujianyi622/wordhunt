@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">wordhunt</string>
+    <string name="username">Nom</string>
+    <string name="userpwd">Mot de passe</string>
+    <string name="button_signup">Inscris toi</string>
+    <string name="button_login">Connecte toi</string>
+    <string name="pas_de_compte">pas de compte?</string>
+    <string name="inscris_nom">Nom</string>
+    <string name="inscris_psw">Mot de passe</string>
+    <string name="inscris_age">Age</string>
+    <string name="sexe_fille">Fille</string>
+    <string name="sexe_garcon">Garçon</string>
+    <string name="button_cree_compte">Rejoins-nous</string>
+    <string name="button_take_photo">Photo</string>
+    <string name="button_mission1">Mission 1</string>
+    <string name="button_back">Back</string>
+    <string name="button_confirm">Comfirme</string>
+    <string name="mot_anglais">Apple</string>
+    <string name="mot_francais">Pomme</string>
+    <string name="prononciation">[ˈæpəl]</string>
+
+</resources>
